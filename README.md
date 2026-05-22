@@ -1,16 +1,115 @@
-# React + Vite
+````md
+# 🎮 React Tic Tac Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive Tic Tac Toe game built using React and Tailwind CSS.
 
-Currently, two official plugins are available:
+This project focuses on:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Component-based architecture
+- State management
+- Game logic implementation
+- User interaction
+- Responsive UI design
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🚀 Features
 
-## Expanding the ESLint configuration
+## Gameplay
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 3x3 game board
+- Two-player turn system
+- Real-time move updates
+- Winner detection
+- Draw detection
+
+## Controls
+
+- Reset game button
+- Current player indicator
+- Game result display
+
+## UI & UX
+
+- Responsive design
+- Clean modern interface
+- Interactive hover effects
+- Smooth user experience
+
+---
+
+# 🛠️ Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+
+---
+
+# 📁 Project Structure
+
+```txt
+src/
+ ├── components/
+ │    ├── Board.jsx
+ │    ├── Square.jsx
+ │
+ ├── utils/
+ │    ├── calculateWinner.js
+ │
+ ├── App.jsx
+ ├── main.jsx
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/prashant1786/react-tic-tac-toe
+```
+
+Move into the project folder:
+
+```bash
+cd react-tic-tac-toe
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+# 🌐 Live Demo
+
+[Live Demo](https://react-tic-tac-toe-gules-eight.vercel.app/)
+
+---
+
+# 📌 Future Improvements
+
+- Scoreboard system
+- Multiplayer online mode
+- Sound effects
+- Dark mode
+- Game history tracking
+- AI opponent mode
+
+---
+
+# 👨‍💻 Author
+
+Prashant Suthar
+````
