@@ -1,4 +1,4 @@
-````md
+
 # 🎮 React Tic Tac Toe Game
 
 A modern and interactive Tic Tac Toe game built using React and Tailwind CSS.
@@ -97,7 +97,11 @@ npm run dev
 [Live Demo](https://react-tic-tac-toe-gules-eight.vercel.app/)
 
 ---
+# 📸 Screenshots
 
+<img src="./screenshots/app.png" width="700" alt="Tic Tac Toe App Screenshot" />
+
+---
 # 📌 Future Improvements
 
 - Scoreboard system
@@ -112,4 +116,4 @@ npm run dev
 # 👨‍💻 Author
 
 Prashant Suthar
-````
+
